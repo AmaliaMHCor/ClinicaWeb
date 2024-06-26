@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- metadatos -->
+  <meta charset="utf-8">
+  <meta name="author" content="Amalia Cornejo">
+  <meta name="description" content="Portafolio de desarrollo web">
+  <meta name="keywords" content="HTML,CSS,JAVASCRIPT">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- TITUTLO -->
+  <title>Amalia Cornejo | Hospital Web</title>
+  <!-- FAVICON -->
+  <link rel="icon" type="image/x-icon" href="imagenes/favicon.png">
+  <!--   BOX ICON -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!--CSS-->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive-style.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto%3Awght%40100%3B300%3B400%3B500%3B700%3B900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+
+  <header class="header_wrapper">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/logo.png" class="img-fluid" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fas fa-stream navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav menu-navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cita">Cita</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="banner_wrapper wrapper">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-md-1 order-2">
+            <h3>Una vida mejor a través de</h3>
+            <h1>Mejor odontología</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolorum, odio minus, deleniti aperiam
+              aliquid nemo ut veritatis beatae cupiditate porro tempore autem repudiandae alias quidem pariatur. Iure,
+              voluptatem pariatur?</p>
+
+            <a href="#cita" class="main-btn mt-4 fill-btn newUser">
+              Cita
+            </a>
+            <!-- <a href="#" class="main-btn mt-4 ms-3">Aprender más</a> -->
+          </div>
+          <div class="col-md-6 order-md-2 order-1 mb-md-0 mb-5">
+            <div class="top-right-sec">
+              <div class="animate-img">
+                <img class="aimg1" src="./imagenes/top-banner-img/woman-brush.png">
+                <img class="aimg2" src="./imagenes/top-banner-img/doctor.png">
+              </div>
+              <img class="img-fluid ms-xl-5" src="./imagenes/top-banner-img/top-right-img-1.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper pb-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card text-center">
+              <div class="icon-box">
+                <img src="./imagenes/top-banner-img/Appointment-icon.png">
+              </div>
+              <div>
+                <h4>Cita fácil</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempora rerum reprehenderit dicta
+                  eveniet, illo soluta consequatur quam iste animi optio dolor, et nesciunt reiciendis ex eos odit
+                  adipisci. Ullam.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card text-center">
+              <div class="icon-box">
+                <img src="./imagenes/top-banner-img/Emergency-icon.png">
+              </div>
+              <div>
+                <h4>Servicio de Emergencia</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempora rerum reprehenderit dicta
+                  eveniet, illo soluta consequatur quam iste animi optio dolor, et nesciunt reiciendis ex eos odit
+                  adipisci. Ullam.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card text-center">
+              <div class="icon-box">
+                <img src="./imagenes/top-banner-img/7-Service-icon.png">
+              </div>
+              <div>
+                <h4>Servicio 24/7</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempora rerum reprehenderit dicta
+                  eveniet, illo soluta consequatur quam iste animi optio dolor, et nesciunt reiciendis ex eos odit
+                  adipisci. Ullam.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about_wrapper wrapper" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-mb-0 mb-5">
+          <div class="position-relative">
+            <img src="./imagenes/about/about-banner1.png" class="img-fluid">
+            <img src="./imagenes/about/about-img2.png" class="about-animate">
+          </div>
+        </div>
+        <div class="col-md-6 text-center text-md-start">
+          <h2>Bienvenido a esta familia</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus nulla perferendis vero omnis
+            beatae exercitationem, similique dolor eum, in culpa nobis? Accusamus nihil libero aliquam officiis tempora
+            fuga nisi quidem?</p>
+          <div class="mt-5 card">
+            <div class="about-clinic">
+              <h4>500+</h4>
+              <p>Pacientes felices</p>
+            </div>
+            <div class="about-clinic">
+              <h4>80+</h4>
+              <p>Médicos Calificados</p>
+            </div>
+            <div class="about-clinic">
+              <h4>25+</h4>
+              <p>Años de experiencia</p>
+            </div>
+            <div class="about-clinic">
+              <h4>55+</h4>
+              <p>Dental Awards</p>
+            </div>
+            <span class="line-1"></span>
+            <span class="line-2"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="services_wrapper wrapper" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center mb-5">
+          <h3 class="text-black">Nuestros Servicios</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <div class="icon-box">
+                <img src="./imagenes/services/1.svg" alt="">
+              </div>
+              <div>
+                <h4>Odontología completa</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis eum, accusamus minima veniam
+                  animi voluptas</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <div class="icon-box">
+                <img src="./imagenes/services/2.svg" alt="">
+              </div>
+              <div>
+                <h4>Selladores dentales</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis eum, accusamus minima veniam
+                  animi voluptas</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <div class="icon-box">
+                <img src="./imagenes/services/3.svg" alt="">
+              </div>
+              <div>
+                <h4>Diccionario Dental</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis eum, accusamus minima veniam
+                  animi voluptas</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <div class="icon-box">
+                <img src="./imagenes/services/4.svg" alt="">
+              </div>
+              <div>
+                <h4>Implantes dentales</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis eum, accusamus minima veniam
+                  animi voluptas</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <div class="icon-box">
+                <img src="./imagenes/services/5.svg" alt="">
+              </div>
+              <div>
+                <h4>Cirugía Oral</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis eum, accusamus minima veniam
+                  animi voluptas.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <div class="icon-box">
+                <img src="./imagenes/services/6.svg" alt="">
+              </div>
+              <div>
+                <h4>Odontología general</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis eum, accusamus minima veniam
+                  animi voluptas</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="team_wrapper wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center mb-5">
+          <h3 class="text-black">Nuestro Equipo</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="card rounded-3">
+            <div class="team-img">
+              <img src="./imagenes/team/team1.png" class="img-fluid">
+            </div>
+            <div class="team-info pt-4 text-center">
+              <h5>Darry millin</h5>
+              <p>Oral Surgery</p>
+              <ul class="social-network">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="card rounded-3">
+            <div class="team-img">
+              <img src="./imagenes/team/team2.png" class="img-fluid">
+            </div>
+            <div class="team-info pt-4 text-center">
+              <h5>Eliot</h5>
+              <p>Oral Surgery</p>
+              <ul class="social-network">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="card rounded-3">
+            <div class="team-img">
+              <img src="./imagenes/team/team3.png" class="img-fluid">
+            </div>
+            <div class="team-info pt-4 text-center">
+              <h5>Olivia Benson</h5>
+              <p>Oral Surgery</p>
+              <ul class="social-network">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery_wrapper wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center mb-5">
+          <h3 class="text-black">Nuestra Galeria</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 mb-4">
+          <img src="./imagenes/gallery/1.jpg" class="w-100 h-100" alt="">
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+          <img src="./imagenes/gallery/2.jpg" class="w-100 h-100" alt="">
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+          <img src="./imagenes/gallery/3.jpg" class="w-100 h-100" alt="">
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4">
+          <img src="./imagenes/gallery/5.jpg" class="w-100 h-100" alt="">
+        </div>
+        <div class="col-md-8 col-sm-6 mb-4">
+          <img src="./imagenes/gallery/4.jpg" class="w-100 h-100" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-wrapper wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center mb-5">
+          <h3 class="text-black">Contacto</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 col-md-8 p-4 mb-lg-0 mb-3 bg-white rounded">
+          <iframe class="w-100 rounded" height="320px"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.6953331318723!2d-71.53534112561047!3d-16.389475237888174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915b4eb76709c847%3A0xd5f60b7d67b90e4!2sHotel%20Costa%20del%20Sol%20Arequipa!5e0!3m2!1ses!2spe!4v1698940207807!5m2!1ses!2spe"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="bg-white p-4 rounded mb-4">
+            <h5>Llamanos</h5>
+            <a href="tel: +51956267414" class="d-inline-block mb-2 text-decoration-none text-dark">
+              <i class="fas fa-phone-alt"></i> +51956267414
+            </a>
+          </div>
+          <div class="bg-white p-4 rounded mb-4">
+            <h5>Siguenos</h5>
+            <a href="#" class="d-inline-block mb-3 social-network">
+              <span class="badge bg-light text-dark fs-6 p-2">
+                <i class="fab fa-twitter"></i> Twitter
+              </span>
+            </a>
+            <br>
+            <a href="#" class="d-inline-block mb-3 social-network">
+              <span class="badge bg-light text-dark fs-6 p-2">
+                <i class="fab fa-facebook"></i> Facebook
+              </span>
+            </a>
+            <br>
+            <a href="#" class="d-inline-block social-network">
+              <span class="badge bg-light text-dark fs-6 p-2">
+                <i class="fab fa-instagram"></i> Instagram
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="cita" class="cita_wrapper wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center mb-5">
+          <h3 class="text-black">Reservar cita</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 ps-0 mb-3">
+          <label class="form-label">DNI</label>
+          <input type="number" class="form-control shadow-none" id="dni">
+        </div>
+        <div class="col-md-6 p-0 mb-3">
+          <label class="form-label">Nombre</label>
+          <input type="text" class="form-control shadow-none" id="nombre">
+        </div>
+        <div class="col-md-6 ps-0 mb-3">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control shadow-none" id="email">
+        </div>
+        <div class="col-md-6 p-0 mb-3">
+          <label class="form-label">Telefono</label>
+          <input type="number" class="form-control shadow-none" id="telefono">
+        </div>
+        <div class="col-md-6 ps-0 mb-3">
+          <label class="form-label">Fecha</label>
+          <input type="date" class="form-control shadow-none" id="fecha">
+        </div>
+        <div class="text-center my-1">
+          <button class="main-btn mt-4 fill-btn" onclick="guardarDatos()">Registrarse</button>
+        </div>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">¡Datos Guardados!</h5>
+                <button type="reset" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p id="modalContent">Tus datos han sido guardados correctamente.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer_wrapper">
+    <div class="container-fluid  mt-5">
+      <div class="row">
+        <div class="col-lg-4 p-4">
+          <h5>CLINIC</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptate tenetur atque id quam nihil perferendis repellendus temporibus harum impedit ipsam soluta
+            cupiditate deserunt illum,
+            fugit est delectus incidunt optio aliquam.</p>
+        </div>
+        <div class="col-lg-4 p-4">
+          <h5 class="mb-3">Links</h5>
+          <a href="#" class="d-inline-block mb-2  text-decoration-none">Inicio</a><br>
+          <a href="#about" class="d-inline-block mb-2  text-decoration-none">Nosotros</a><br>
+          <a href="#services" class="d-inline-block mb-2  text-decoration-none">Servicios</a><br>
+          <a href="#team" class="d-inline-block mb-2  text-decoration-none">Equipo</a><br>
+          <a href="#gallery" class="d-inline-block mb-2  text-decoration-none">Galeria</a><br>
+          <a href="#contact" class="d-inline-block mb-2  text-decoration-none">Contacto</a>
+
+        </div>
+        <div class="col-lg-4 p-4">
+          <h5 class="mb-3">Siguenos</h5>
+          <a href="#" class="d-inline-block  text-decoration-none mb-2">
+            <i class="bi bi-twitter-x me-1"></i> Twitter
+          </a><br>
+          <a href="#" class="d-inline-block  text-decoration-none mb-2">
+            <i class="bi bi-facebook me-1"></i> Facebook
+          </a><br>
+          <a href="#" class="d-inline-block  text-decoration-none mb-2">
+            <i class="bi bi-instagram me-1"></i> Instagram
+          </a><br>
+
+        </div>
+      </div>
+    </div>
+
+    <h6 class="text-center text-white p-3 m-0">Copyright &copy; 2023 by Amalia Cornejo | Reservados todos los derechos
+    </h6>
+  </footer>
+  <script>
+    // Mostrar los datos guardados al cargar la página
+
+    function guardarDatos() {
+      // Obtener los valores ingresados por el usuario
+      var dni = document.getElementById("dni").value;
+      var nombre = document.getElementById("nombre").value;
+      var email = document.getElementById("email").value;
+      var telefono = document.getElementById("telefono").value;
+      var fecha = document.getElementById("fecha").value;
+
+      // Verificar que se haya ingresado un nombre
+      if (!dni || !nombre || !email || !telefono || !fecha) {
+        alert("Por favor, ingrese los datos correspondientes.");
+        return;
+      }
+
+      // Crear un objeto con los datos
+      var datos = {
+        dni: dni,
+        nombre: nombre,
+        email: email,
+        telefono: telefono,
+        fecha: fecha
+      };
+
+      // Convertir el objeto a una cadena JSON
+      var datosJSON = JSON.stringify(datos);
+
+      // Guardar los datos en el localStorage
+      localStorage.setItem("usuarioDatos", datosJSON);
+
+      // Limpiar los campos de entrada
+      document.getElementById("dni").value = "";
+      document.getElementById("nombre").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("telefono").value = "";
+      document.getElementById("fecha").value = "";
+
+      // Mostrar los datos en el modal
+      mostrarDatosEnModal(datos);
+
+
+    }
+
+
+    function mostrarDatosEnModal(datos) {
+      // Obtener el elemento del modal
+      var modalContent = document.getElementById("modalContent");
+
+      // Construir el contenido con los datos
+      var contenido = "Tus datos han sido guardados correctamente.<br>";
+      contenido += "<strong>Email:</strong> " + datos.email + "<br>";
+      contenido += "<strong>Fecha de Cita:</strong> " + datos.fecha;
+
+      // Asignar el contenido al modal
+      modalContent.innerHTML = contenido;
+
+      // Mostrar el modal de Bootstrap
+      $('#myModal').modal('show');
+    }
+  </script>
+  <!-- SCRIPTS-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
